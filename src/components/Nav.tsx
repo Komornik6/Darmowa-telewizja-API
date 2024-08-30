@@ -82,6 +82,7 @@ export default function Nav() {
       <div className="top-bar-links">
         <NavLink to="/movies">Filmy</NavLink>
         <NavLink to="/series">Seriale</NavLink>
+        <NavLink to="/tv">Tv</NavLink>
         <NavLink to="/list">Moja Lista</NavLink>
         <NavLink to="https://discord.gg/crystalsh0p">Nasz Discord</NavLink>
 
@@ -93,11 +94,12 @@ export default function Nav() {
           <i className="fa-regular fa-tv"></i>
         </NavLink>
 
-        <NavLink className="mobile" to="/list">
-          <i className="fa-regular fa-list"></i>
-        </NavLink>
         <NavLink className="mobile" to="/Tv">
           <i className="fa-regular fa-list"></i> {/* Tu mozesz zmienić tą ikonkę fa-list na inną */}
+        </NavLink>
+        
+        <NavLink className="mobile" to="/list">
+          <i className="fa-regular fa-list"></i>
         </NavLink>
       </div>
 
