@@ -8,6 +8,7 @@ import Index from "@/pages/Index";
 import List from "@/pages/List";
 import Search from "@/pages/Search";
 import Watch from "@/pages/Watch";
+import Tv from "@/pages/Tv";
 
 export default function App() {
   return (
