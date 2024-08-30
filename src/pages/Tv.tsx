@@ -1,3 +1,4 @@
+import Telewizjon from "@/components/Telewizjon";
 import { Helmet } from "react-helmet";
 
 export default function Tv() {
@@ -9,10 +10,7 @@ export default function Tv() {
 
       <div className="page">
         <h1 className="page-title">TV</h1>
-
-        <div className="page-cards">
-          <h2>Tu będzie TV</h2>
-        </div>
+            <Telewizjon/>
       </div>
     </>
   );
