@@ -32,7 +32,7 @@ export default function List() {
       </Helmet>
 
       <div className="page">
-        <h1 className="page-title">Watchlist</h1>
+        <h1 className="page-title">Lista Obserwowanych</h1>
 
         <div className="page-cards">
           {wishlist.map(media => (
