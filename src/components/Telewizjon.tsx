@@ -1,7 +1,5 @@
 'use client';
 
-import { Radius } from 'lucide-react';
-
 const series = [
   { name: 'nazwa', url: 'https://dlhd.sx/embed/stream-259.php' },
   { name: 'nazwa', url: 'https://dlhd.sx/embed/stream-48.php' },
