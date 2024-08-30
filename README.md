@@ -24,7 +24,7 @@
 5. Open `http://localhost:5173` in your browser.
 6. **(Optional)** Change the site logo by replacing `/public/logo.png` with your own logo.
 7. **(Optional)** Change the site icon by replacing `/public/icon.png` with your own icon, use a square (1:1) image for best results.
-8. **(Optional)** Change the site name by replacing `Ripper+` in `/.env` and `/index.html`.
+8. **(Optional)** Change the site name by replacing `CrystalTV` in `/.env` and `/index.html`.
 9. **(Optional)** Add any advertisement codes in `/index.html` (Like [Adsterra](https://beta.publishers.adsterra.com/referral/fMYMsgM7NM))
 10. Run `npm run build` in the terminal to build the production files
 11. Upload the contents of the `/dist` folder to production. (**Jink**, Netlify, etc.)
