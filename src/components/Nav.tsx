@@ -84,6 +84,7 @@ export default function Nav() {
         <NavLink to="/movies">Movies</NavLink>
         <NavLink to="/series">Series</NavLink>
         <NavLink to="/list">My List</NavLink>
+        <NavLink to="/Tv">Tv</NavLink>
 
         <NavLink className="mobile" to="/movies">
           <i className="fa-regular fa-film"></i>
@@ -95,6 +96,9 @@ export default function Nav() {
 
         <NavLink className="mobile" to="/list">
           <i className="fa-regular fa-list"></i>
+        </NavLink>
+        <NavLink className="mobile" to="/Tv">
+          <i className="fa-regular fa-list"></i> {/* Tu mozesz zmienić tą ikonkę fa-list na inną */}
         </NavLink>
       </div>
 
