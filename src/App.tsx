@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Nav from '@/components/Nav';
+import Nav from "@/components/Nav";
 
-import Full from './pages/Full';
-import Genre from '@/pages/Genre';
-import Index from '@/pages/Index';
-import List from '@/pages/List';
-import Search from '@/pages/Search';
-import Watch from '@/pages/Watch';
+import Full from "./pages/Full";
+import Genre from "@/pages/Genre";
+import Index from "@/pages/Index";
+import List from "@/pages/List";
+import Search from "@/pages/Search";
+import Watch from "@/pages/Watch";
 
 export default function App() {
   return (
@@ -18,6 +18,8 @@ export default function App() {
         <Route path="/" element={<Index />} />
 
         <Route path="/list" element={<List />} />
+
+        <Route path="/Tv" element={<Tv />} />
 
         <Route path="/search" element={<Search />} />
 

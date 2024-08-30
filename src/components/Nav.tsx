@@ -96,6 +96,9 @@ export default function Nav() {
         <NavLink className="mobile" to="/list">
           <i className="fa-regular fa-list"></i>
         </NavLink>
+        <NavLink className="mobile" to="/Tv">
+          <i className="fa-regular fa-list"></i> {/* Tu mozesz zmienić tą ikonkę fa-list na inną */}
+        </NavLink>
       </div>
 
       <div className="top-bar-search" ref={wrapperRef}>
